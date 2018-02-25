@@ -12,6 +12,8 @@
         <module>sentinal-ops-web</module>
         <module>sentinal-ops-core</module>
         <module>sentinal-ops-common</module>
+        <module>sentinal-ops-server</module>
+        <module>sentinal-ops-example</module>
         <module>deploy</module>
     </modules>
 
@@ -22,6 +24,7 @@
         <sentinal-ops-web-version>1.0.0-SNAPSHOT</sentinal-ops-web-version>
         <sentinal-ops-core-version>1.0.0-SNAPSHOT</sentinal-ops-core-version>
         <sentinal-ops-common-version>1.0.0-SNAPSHOT</sentinal-ops-common-version>
+        <sentinal-ops-server-version>1.0.0-SNAPSHOT</sentinal-ops-server-version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -120,6 +123,11 @@
                 <version>${sentinal-ops-common-version}</version>
             </dependency>
             <dependency>
+                <groupId>com.invoker.ops</groupId>
+                <artifactId>sentinal-ops-server</artifactId>
+                <version>${sentinal-ops-server-version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring</artifactId>
                 <version>999-not-exist</version>
@@ -213,7 +221,7 @@
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>jcl-over-slf4j</artifactId>
-                <version>1.7.5</version>
+                <version>1.7.25</version>
             </dependency>
             <dependency>
                 <groupId>commons-logging</groupId>
@@ -264,6 +272,21 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>1.16.20</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-collections</groupId>
+                <artifactId>commons-collections</artifactId>
+                <version>3.2.2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.7</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.46</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -334,5 +357,5 @@
             </plugins>
         </pluginManagement>
     </build>
-    <contributors><contributor><properties/><email>hua_fyuan_work@163.com</email><name>fangyuan.lx</name><url>git@github.com:huafangyuan/sentinal-elfin.git</url></contributor></contributors>
+    <contributors><contributor><properties/><email>hua_fyuan_work@163.com</email><name>fangyuan.lw</name><url>git@github.com:huafangyuan/sentinal-elfin.git</url></contributor></contributors>
 </project>
