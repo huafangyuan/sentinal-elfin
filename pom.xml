@@ -22,6 +22,7 @@
         <sentinal-ops-web-version>1.0.0-SNAPSHOT</sentinal-ops-web-version>
         <sentinal-ops-core-version>1.0.0-SNAPSHOT</sentinal-ops-core-version>
         <sentinal-ops-common-version>1.0.0-SNAPSHOT</sentinal-ops-common-version>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
