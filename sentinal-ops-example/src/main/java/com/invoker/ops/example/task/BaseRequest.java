@@ -1,4 +1,4 @@
-package task;
+package com.invoker.ops.example.task;
 
 /**
  * Description:
@@ -6,5 +6,5 @@ package task;
  * @author fangyuan.lw
  * @date 2018/02/25
  */
-public class TaskFrameProcessor {
+public interface BaseRequest {
 }
