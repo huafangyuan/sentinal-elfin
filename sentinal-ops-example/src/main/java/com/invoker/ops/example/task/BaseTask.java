@@ -47,6 +47,4 @@ public abstract class BaseTask<RQ extends BaseRequest, RS extends BaseResponse> 
 
         }
     }
-
-
 }
